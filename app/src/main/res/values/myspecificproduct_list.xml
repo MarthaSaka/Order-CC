@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="specific_products">
+        <item>Kifaru</item>
+        <item>Ndovu</item>
+        <item>Ndovu</item>
+        <item>Rice</item>
+        <item>Salt</item>
+        <item>Diapers</item>
+        <item>Cooking oil</item>
+        <item>Cooking fat</item>
+        <item>Soap</item>
+    </string-array>
+</resources>

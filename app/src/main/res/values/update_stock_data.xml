@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="stock">
+        <item>70 1kg bail Kifaru Ugali @Ksh 980</item>
+        <item>100 2kg bail Kifaru Ugali @Ksh 1960</item>
+        <item>70 1kg bail Ndovu Ugali @Ksh 980</item>
+        <item>100 2kg bail Ndovu Ugali @Ksh 1960</item>
+        <item>30 500gms Kensalt @Ksh 1500 </item>
+        <item>20 20ltrs Rina @Ksh 3000</item>
+        <item>30 800gms Menengai Bar soap @Ksh 3000</item>
+        <item>20 50kg Nzoia Sugar @Ksh 3000</item>
+        <item>30 300gms Nuvita Biscuits @Ksh 300</item>
+    </string-array>
+</resources>

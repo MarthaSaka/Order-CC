@@ -12,17 +12,16 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class ViewOrdersActivity extends ListActivity {
+public class ProductsListActivity extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // storing string resources into Array
-        String[] adobe_products = getResources().getStringArray(R.array.retailers);
+        String[] products = getResources().getStringArray(R.array.products);
 
         // Binding resources Array to ListAdapter
-        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_view_orders, R.id.label, adobe_products));
-
+        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.productslist_item, R.id.label, products));
         ListView lv = getListView();
 
         // listening to single list item on click
@@ -34,7 +33,7 @@ public class ViewOrdersActivity extends ListActivity {
                 String product = ((TextView) view).getText().toString();
 
                 // Launching new Activity on selecting single List Item
-                Intent i = new Intent(getApplicationContext(), SingleRetailerListItem.class);
+                Intent i = new Intent(getApplicationContext(), SingleProductListItem.class);
                 // sending data to new activity
                 i.putExtra("product", product);
                 startActivity(i);

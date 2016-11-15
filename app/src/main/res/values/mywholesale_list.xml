@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="retailers">
-        <item>Bora</item>
+    <string-array name="wholesale_stores">
+        <item>Boresha</item>
         <item>Imani</item>
         <item>Hazi</item>
         <item>Patapata</item>

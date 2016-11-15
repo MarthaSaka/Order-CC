@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="orders">
+        <item>2kg bail  Kifaru  Ksh 1960</item>
+        <item>1kg bail  Kifaru  Ksh 980</item>
+        <item>25kg Pishori rice Ksh 3000</item>
+        <item>24 500gm Kensalt  Ksh 2400</item>
+        <item>20ltr Rina salad  Ksh 3000</item>
+        <item>12 2kg Mumias sugar Ksh 3000</item>
+    </string-array>
+</resources>

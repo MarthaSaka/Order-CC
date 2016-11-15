@@ -1,7 +1,7 @@
 package com.example.marthasaka.order_cc;
 
 /**
- * Created by marthasaka on 15/11/2016.
+ * Created by marthasaka on 11/11/2016.
  */
 
 import android.app.Activity;
@@ -9,20 +9,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-
-public class SingleRetailerListItem extends Activity{
+public class SingleSpecificProduct extends Activity{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.setContentView(R.layout.retailer_single_list_item_view);
+        this.setContentView(R.layout.single_specific_product_view);
 
-        TextView txtProduct = (TextView) findViewById(R.id.retailer_label);
+        TextView txtProduct = (TextView) findViewById(R.id.specificproduct_label);
 
         Intent i = getIntent();
         // getting attached intent data
-        String retailer = i.getStringExtra("retailer");
+        String product = i.getStringExtra("specific product");
         // displaying selected product name
-        txtProduct.setText(retailer);
+        txtProduct.setText(product);
 
     }
 }

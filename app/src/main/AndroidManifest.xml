@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marthasaka.order_cc">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:allowBackup="true"
+        android:icon="@drawable/groupappicon"
+        android:label="Order-CC"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity
+            android:name=".AppMainActivity"
+            android:label="Order-CC"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AreasActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".WholesalerLoginActivity" />
+        <activity android:name=".RetailerLoginActivity" />
+        <activity android:name=".WholesalersScreen2Activity" />
+        <activity android:name=".ProductsListActivity" />
+        <activity android:name=".SpecificProductActivity" />
+        <activity android:name=".KfActivity" />
+        <activity android:name=".BasketActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".AfterLoginActivity" />
+        <activity android:name=".ViewOrdersActivity" />
+        <activity android:name=".OrdersActivity" />
+        <activity android:name=".UpdateStockActivity"></activity>
+    </application>
+
+</manifest>

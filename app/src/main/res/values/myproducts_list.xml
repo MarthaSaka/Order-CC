@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="products">
+    <item>Unga Ugali</item>
+    <item>Unga Ngano</item>
+    <item>Sugar</item>
+    <item>Rice</item>
+    <item>Salt</item>
+    <item>Diapers</item>
+    <item>Cooking oil</item>
+    <item>Cooking fat</item>
+    <item>Soap</item>
+    </string-array>
+</resources>
